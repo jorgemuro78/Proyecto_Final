@@ -79,7 +79,6 @@
             text-align: center;
             width: 90%;
             border: none;
-            align-items: center;
         }
         
         .boton:hover {
@@ -336,14 +335,11 @@
             }
         }
         
-        .campo input[type="text"],
-        .campo input[type="tel"],
-        .campo input[type="mail"],
-        .campo textarea {
+        .campo .input-text {
             width: 100%;
-            padding: .5rem;
             border: none;
-            border-radius: .5rem;
+            padding: 1.2rem;
+            border-radius: 0.5rem;
         }
         
         @media (min-width: 768px) {
@@ -352,8 +348,8 @@
             }
         }
         
-        .w-100 {
-            flex: 0 0 100%;
+        .w-sm-100 {
+            flex: 0 0 20%;
         }
         
         .campo textarea {
